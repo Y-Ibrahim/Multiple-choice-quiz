@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+    <title>Quiz</title>
+</head>
+<body id="background">
+    
+   <div class="container">
+       <h1 class="title">Yousuf Quiz</h1>
+    <div class="start">Start Quiz</div>
+    <div class="quiz" style="display: none">
+        <div class="question"></div>
+        <div class="q-image"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')">Answer 1</div>
+            <div class="choice" id="B" onclick="checkAnswer('B')">Answer 2</div>
+            <div class="choice" id="C" onclick="checkAnswer('C')">Answer 3</div>
+            <div class="choice" id="D" onclick="checkAnswer('D')">Answer 4</div>
+        </div>
+    </div>
+    <div class="score" style="display: none"></div>
+    <div id="progress"></div>
+       </div>
+
+       
+    
+  
+</body>
+<script src="app.js"></script>
+</html>
